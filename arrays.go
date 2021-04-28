@@ -11,6 +11,6 @@ func arrays() {
 	fmt.Println(arr)
 
 	arr1 := [3]int{1, 2, 3}
-	fmt.Println(arr1)
+	fmt.pr(arr1)
 
 }
