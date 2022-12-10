@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func maps() {
+func main() {
 	m := map[string]int{"foo": 2}
 	fmt.Println(m["foo"])
 

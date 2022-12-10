@@ -1,6 +1,6 @@
 package main
 
-func loops() {
+func main() {
 	//var i int şeklinde tanımlarsam döngü dışında da int değerini kullanabilirim
 	for i := 0; i < 6; i++ {
 		if i == 4 {

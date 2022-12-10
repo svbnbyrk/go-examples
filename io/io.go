@@ -7,7 +7,7 @@ import (
 	"runtime"
 )
 
-func cli(){
+func main(){
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("What is ur name?")
 	text ,_ := reader.ReadString('\n')

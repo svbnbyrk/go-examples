@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func pointers() {
+func main() {
 	// var firstName *string = new(string)
 
 	// *firstName = "sevban"

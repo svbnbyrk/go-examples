@@ -4,7 +4,7 @@ type HTTPRequest struct {
 	Method string
 }
 
-func swtiches() {
+func main() {
 	r := HTTPRequest{Method: "HEAD"}
 
 	switch r.Method {

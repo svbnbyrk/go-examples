@@ -12,7 +12,7 @@ const (
 	fourth
 )
 
-func iotas() {
+func main() {
 
 	fmt.Println(first, second, third, fourth)
 }

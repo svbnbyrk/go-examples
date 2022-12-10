@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func flags() {
+func main() {
 	arcPtr := flag.String("arch", "x86", "CPU Type")
 
 	flag.Parse()

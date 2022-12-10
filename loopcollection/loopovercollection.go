@@ -2,7 +2,7 @@ package main
 
 import ()
 
-func loopovercollection() {
+func main() {
 	slice := []int{1,2,3}
 	
 	for i:=0;i<len(slice);i++{

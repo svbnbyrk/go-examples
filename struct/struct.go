@@ -8,7 +8,7 @@ type user struct {
 	LastName  string
 }
 
-func structs() {
+func main() {
 	var u user
 	u.ID = 1
 	u.FirstName = "sevban"

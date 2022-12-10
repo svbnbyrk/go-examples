@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func buffioText() {
+func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 
 	for scanner.Scan() {
